@@ -53,11 +53,11 @@ function App() {
       const text = prediction["class"];
       var color;
       if (text === "Person") {
-        color = "#FF0000";
+        color = "#66ff66";
       } else if (text === "Bottle" || text === "bottle") {
-        color = "#00FF00";
+        color = "#4d4dff";
       } else if (text === "Book" || text === "book") {
-        color = "#0000FF";
+        color = "#ffff00";
       }
 
       ctx.strokeStyle = color;
